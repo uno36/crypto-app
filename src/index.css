@@ -1,69 +1,70 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e53571;
+  color: #ffff;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
 }
 
-button {
+.div {
+  background-color: #c32d61;
+  border: 1px solid #e63571;
+  height: 200px;
+}
+
+.area {
+  background-color: #360e1b;
+  height: 240px;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.heading {
+  background-color: #360e1b;
+  padding: 10px;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.details-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.details-link:hover {
+  color: #360e1b;
+}
+
+img {
+  height: 80px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: lightblue;
   }
-  a:hover {
-    color: #747bff;
+
+  50% {
+    opacity: 0;
   }
-  button {
-    background-color: #f9f9f9;
+
+  51% {
+    opacity: 1;
+    color: yellow;
   }
+
+  100% {
+    opacity: 1;
+    color: white;
+  }
+}
+
+.blink {
+  animation: blink 2s infinite;
 }

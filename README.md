@@ -3,10 +3,12 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Stock Data App ](#-stock-data-app-)
+- [📖 Crypto App ](#-crypto-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Video Link ](#-video-link-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -22,11 +24,12 @@
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Stock Data App <a name="about-project"></a>
+# 📖 Crypto App <a name="about-project"></a>
 
-**the stock Data App** is an app to track and analyze real-time stock market data
+**the Crypto App** is an app to track and analyze real-time crypto data
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,6 +52,20 @@
 - **powerful interactive features**
 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Video Link <a name="live-demo"></a>
+- [Video describing the project]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +95,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/uno36/stock-app.git
+  git clone https://github.com/uno36/crypto-app.git
 ```
 
 ### Install
@@ -89,7 +106,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd stock-app
+  cd crypto-app
   npm install 
 ```
 
@@ -102,7 +119,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  npm run build
+  npm run dev
 ```
 
 
@@ -114,18 +131,17 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  no tests required
+  npm test
 ```
 
 ### Deployment
 
 You can deploy this project using:
 
-
 Example:
 
 ```sh
-    no deployment
+    gthu pages or render
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,8 +165,10 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **linkers**
-- [ ] **visionary**
+- [ ] **more versatile user friedly UI**
+- [ ] **login and logout features**
+- [ ] **sign-up**
+- [ ] **improved detaied information about cryptocurrencies**
 - [ ] **likable display**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -179,7 +197,7 @@ If you like this project dont hesitate to contact me
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for their continued support
+I would like to acknowledge and give credit to the app's author Nelson Sakwa for their work and effort in developing this application. Their expertise and dedication have made it possible for me to access valuable features, such as real-time market data, portfolio management tools, trading capabilities, news updates, and educational resources. I appreciate their contribution in providing me with a user-friendly platform to manage my investments and make informed decisions in the stock market.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,9 +207,9 @@ I would like to thank Microverse for their continued support
 
 
 
-- **What is the purpose of a stock app?**
+- **What is the purpose of a crypto Website?**
 
-  - A stock app, also known as a stock market app or investment app, serves multiple purposes related to stocks and investing. Its primary objective is to provide users with convenient access to information, tools, and resources to help them monitor and manage their investments in the stock market. Here are some common purposes of a stock app:
+  - The purpose of a crypto website is to provide information, resources, and services related to cryptocurrencies. It enables users to access real-time crypto market data, track prices, trade digital assets, learn about blockchain technology, and stay updated on the latest news and trends in the cryptocurrency industry. It also facilitates secure transactions, offers wallet services, and provides educational content for users interested in investing or participating in the crypto ecosystem.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
