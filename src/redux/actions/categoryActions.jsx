@@ -3,8 +3,8 @@ import { FETCH_CATEGORIES_SUCCESS, FETCH_CATEGORIES_FAILURE } from '../types/cat
 
 export const fetchCategories = () => async (dispatch) => {
   try {
-    const response = await axios.get('https://financialmodelingprep.com/api/v3/income-statement/AAPL?apikey=c0fbcfdc5c4d0cc65048d2e348018d24');
-    const categories = response.data;
+    const response = await axios.get('https://api.coinstats.app/public/v1/coins');
+    const categories = response.data.coins; // Assuming the array of categories is under the 'coins' property
     dispatch({ type: FETCH_CATEGORIES_SUCCESS, payload: categories });
   } catch (error) {
     dispatch({ type: FETCH_CATEGORIES_FAILURE, payload: error.message });

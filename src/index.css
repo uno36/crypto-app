@@ -14,6 +14,7 @@
  .div {
     background-color: #c32d61;
     border: 1px solid #e63571;
+    height: 200px;
  }
 
  .area {
@@ -28,3 +29,41 @@
     padding: 10px;
     border-radius: 8px;
  }
+
+ .details-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+ }
+
+ .details-link:hover {
+    color: #360e1b;
+ }
+
+ img {
+   height: 80px;
+ }
+
+ @keyframes blink {
+   0% {
+     opacity: 1;
+     color: lightblue;
+   }
+   50% {
+     opacity: 0;
+   }
+   51% {
+     opacity: 1;     
+     color: yellow;
+   }
+   100% {
+     opacity: 1;     
+     color: white;
+   }
+ }
+ 
+ .blink {
+   animation: blink 2s infinite;
+ }
+ 
+ 
