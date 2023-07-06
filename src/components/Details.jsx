@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Container} from 'react-bootstrap';
+import { Container, ListGroup } from 'react-bootstrap';
 
 const Details = () => {
   const [categoryDetails, setCategoryDetails] = useState(null);
@@ -51,7 +51,8 @@ const Details = () => {
     priceChange1d,
     priceChange1w,
     websiteUrl,
-    twitterUrl,    
+    twitterUrl,
+    exp,    
   } = categoryDetails;
 
   return (
@@ -78,7 +79,15 @@ const Details = () => {
         </p>
         <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>
           <a href={twitterUrl} target="_blank" rel="noopener noreferrer" className="text-decoration-none">Twitter</a>
-        </p>                
+        </p>
+        <p>Explorer Links:</p>
+        <ListGroup className="my-3" >
+          {exp.map((link, index) => (
+            <ListGroup.Item key={index} className="list-unstyled" style={{ backgroundColor: '#a41744' }}>
+              <a href={link} target="_blank" rel="noopener noreferrer" className="text-decoration-none">{link}</a>
+            </ListGroup.Item>
+          ))}
+        </ListGroup>                
       </div>
     </Container>
   );
