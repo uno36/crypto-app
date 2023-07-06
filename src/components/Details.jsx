@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Container } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 
 const Details = () => {
   const [categoryDetails, setCategoryDetails] = useState(null);
@@ -51,8 +51,7 @@ const Details = () => {
     priceChange1d,
     priceChange1w,
     websiteUrl,
-    twitterUrl,
-    exp,
+    twitterUrl,    
   } = categoryDetails;
 
   return (
@@ -63,31 +62,23 @@ const Details = () => {
       <div className="text-center">
         <img src={icon} alt="Category Icon" />
         <h2>{name}</h2>
-        <p>Symbol: {symbol}</p>
-        <p>Rank: {rank}</p>
-        <p>Price: {price}</p>
-        <p>Price in BTC: {priceBtc}</p>
-        <p>Volume: {volume}</p>
-        <p>Market Cap: {marketCap}</p>
-        <p>Available Supply: {availableSupply}</p>
-        <p>Total Supply: {totalSupply}</p>
-        <p>Price Change in 1h: {priceChange1h}</p>
-        <p>Price Change in 1d: {priceChange1d}</p>
-        <p>Price Change in 1w: {priceChange1w}</p>
-        <p>
+        <p style={{backgroundColor: '#a41744', padding: '10px'}}>Symbol: {symbol}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>Rank: {rank}</p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>Price: {price}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>Price in BTC: {priceBtc}</p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>Volume: {volume}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>Market Cap: {marketCap}</p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>Available Supply: {availableSupply}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>Total Supply: {totalSupply}</p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>Price Change in 1h: {priceChange1h}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>Price Change in 1d: {priceChange1d}</p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>Price Change in 1w: {priceChange1w}</p>
+        <p style={{backgroundColor: '#e63571', marginTop: '-16px', padding: '10px'}}>
           <a href={websiteUrl} className="text-decoration-none" target="_blank" rel="noopener noreferrer">Website</a>
         </p>
-        <p>
+        <p style={{backgroundColor: '#a41744', marginTop: '-16px', padding: '10px'}}>
           <a href={twitterUrl} target="_blank" rel="noopener noreferrer" className="text-decoration-none">Twitter</a>
-        </p>
-        <p>Explorer Links:</p>
-        <ul>
-          {exp.map((link, index) => (
-            <li key={index} className="list-unstyled ">
-              <a href={link} target="_blank" rel="noopener noreferrer" className="text-decoration-none">{link}</a>
-            </li>
-          ))}
-        </ul>
+        </p>                
       </div>
     </Container>
   );
