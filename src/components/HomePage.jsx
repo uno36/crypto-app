@@ -26,8 +26,8 @@ const Homepage = ({ categories, fetchCategories }) => {
       <div className="area my-2 rounded m-2">
         <h4 className="text-center p-3">Its all about <span className="blink">cryptocurrency</span></h4>
         <p className="m-3">crypto financial metrics</p>
-        <p className="m-3">significant financial milestones</p>
-        <ul className="m-3">
+        <p className="sig  ">significant financial milestones</p>
+        <ul className=" gr ">
           <li>growth</li>
           <li>profitability</li>
           <li>cash flow generation</li>
