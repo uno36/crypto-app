@@ -17,15 +17,8 @@ body {
   padding-left: 0;
 }
 
-.div:nth-child(8n + 2),
-.div:nth-child(8n + 4),
-.div:nth-child(8n + 5),
-.div:nth-child(8n + 7) {
-  background-color: #c32d61;
-}
-
 .div {
-  background-color: #a41744;  
+  background-color: #a41744;
   border: 1px solid #e63571;
   height: 200px;
 }
@@ -81,5 +74,3 @@ img {
 .blink {
   animation: blink 3s infinite;
 }
-
-
