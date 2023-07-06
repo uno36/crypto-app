@@ -59,13 +59,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://crypto-website.onrender.com)
+- [Live Demo Link](https://lively-twilight-3f122e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Video Link <a name="live-demo"></a>
-- [Video describing the project]()
+- [Video describing the project](https://www.loom.com/share/d28ba94082304f8e806bed0c94ad8cb4?sid=355d2f4f-a65e-4fa8-a706-43a37e7e7c0e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +197,7 @@ If you like this project dont hesitate to contact me
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge and give credit to the app's author Nelson Sakwa for their work and effort in developing this application. Their expertise and dedication have made it possible for me to access valuable features, such as real-time market data, portfolio management tools, trading capabilities, news updates, and educational resources. I appreciate their contribution in providing me with a user-friendly platform to manage my investments and make informed decisions in the stock market.
+I would like to acknowledge and give credit to the app's author [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for their work and effort in developing this application. Their expertise and dedication have made it possible for me to access valuable features, such as real-time market data, portfolio management tools, trading capabilities, news updates, and educational resources. I appreciate their contribution in providing me with a user-friendly platform to manage my investments and make informed decisions in the stock market.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
