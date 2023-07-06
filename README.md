@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://crypto-website.onrender.com)
+- [Live Demo Link](https://lively-twilight-3f122e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
