@@ -6,6 +6,11 @@ body {
   color: #ffff;
 }
 
+.sig, .gr {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
 .no-gutter {
   padding-right: 0;
   padding-left: 0;
