@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://crypto-website.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +197,7 @@ If you like this project dont hesitate to contact me
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge and give credit to the app's author Nelson Sakwa for their work and effort in developing this application. Their expertise and dedication have made it possible for me to access valuable features, such as real-time market data, portfolio management tools, trading capabilities, news updates, and educational resources. I appreciate their contribution in providing me with a user-friendly platform to manage my investments and make informed decisions in the stock market.
+I would like to acknowledge and give credit to the app's author [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for their work and effort in developing this application. Their expertise and dedication have made it possible for me to access valuable features, such as real-time market data, portfolio management tools, trading capabilities, news updates, and educational resources. I appreciate their contribution in providing me with a user-friendly platform to manage my investments and make informed decisions in the stock market.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
