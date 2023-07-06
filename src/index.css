@@ -6,7 +6,8 @@ body {
   color: #ffff;
 }
 
-.sig, .gr {
+.sig,
+.gr {
   margin-top: -10px;
   margin-left: 15px;
 }
